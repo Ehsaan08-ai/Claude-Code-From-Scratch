@@ -1,1 +1,4 @@
 openai
+dotenv
+click
+python-dotenv
