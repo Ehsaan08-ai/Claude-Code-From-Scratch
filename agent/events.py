@@ -1,8 +1,7 @@
 from __future__ import annotations
-from dataclasses import field
+from dataclasses import field, dataclass
 from typing import Any
 from enum import Enum
-from dataclasses import dataclass
 from client.response import TokenUsage
 
 class AgentEventType(str, Enum):
