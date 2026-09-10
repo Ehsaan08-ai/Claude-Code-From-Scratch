@@ -44,4 +44,6 @@ class TUI:
     ) -> None:
         self.console = console or get_console()
 
-    
+    def stream_assistant_delta(self, content: str) -> None:
+        self.console.print(content, end="", markup=False)
+        

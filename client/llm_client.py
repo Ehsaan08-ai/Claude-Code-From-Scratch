@@ -43,7 +43,7 @@ class LLMClient:
         client = self.get_client()
 
         kwargs = {
-            "model": "minimax/minimax-m3:free",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
             "messages": messages,
             "stream": stream,
         }
